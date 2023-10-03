@@ -28,6 +28,7 @@ public class TestClass
     	 
     	 driver.manage().window().maximize();
     	 driver.get(System.getProperty("url"));
+    	 System.out.println("browser launch successfully....");
     }
 
     
